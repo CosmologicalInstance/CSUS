@@ -1,0 +1,14 @@
+from random import choice
+name = input("What's your name halfling? ")
+house = ['Gryffindor', 'Sytherin', 'Ravenclaw', 'Hufflepuff']
+def houses(n):
+    return house[n-1]
+sortinghat = {
+    name: houses(1) for name in ['Ron', 'Hermione', 'Harry']
+    }
+sortinghat.update({'Malfoy': houses(2)})
+if name not in sortinghat:
+    n = choice(house)
+else:
+    n = sortinghat[name]
+print(f"You're in {n} young {name.title()}")
