@@ -1,0 +1,12 @@
+
+from random import choice
+user = input("What's your name?")
+houses = ('Gryffindor', 'Slytherin', 'Hufflepuff', 'Ravenclaw')
+students = {
+    user: choice(houses),
+    'Ron': houses[0],
+    'Hermione': houses[0],
+    'Harry': houses[0],
+    'Malfoy': houses[1],
+}
+print(f"You're in {students[user]}, {user}!")
