@@ -1,4 +1,3 @@
-
 from random import choice
 user = input("What's your name?")
 houses = ('Gryffindor', 'Slytherin', 'Hufflepuff', 'Ravenclaw')
