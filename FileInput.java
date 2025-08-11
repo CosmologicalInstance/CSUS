@@ -2,7 +2,7 @@ import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
   public class main {
-    public static void main {
+    public static void main(String[] args) {
       try [
         BufferedWriter writer = new BufferedWriter(FileWriter("Example.txt"));
         writer.write("Hello");
