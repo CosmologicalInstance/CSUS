@@ -1,2 +1,2 @@
-# CSUS
-CSUS
+Respository for Sac State.
+- Arthur G
